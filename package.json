@@ -1,6 +1,6 @@
 {
   "name": "alfred-diskusage",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "show mac disk usage",
   "license": "MIT",
   "repository": "lcc19941214/alfred-diskusage",
@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
     "build": "alfy-init",
     "clean": "alfy-cleanup"
   },

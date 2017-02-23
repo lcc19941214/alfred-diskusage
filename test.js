@@ -3,12 +3,9 @@ import alfyTest from 'alfy-test';
 
 test(async t => {
 	const alfy = alfyTest();
-	const result = await alfy('Rainbow');
+	const result = await alfy('df');
+  const item = result[0];
+  const { title, subtitle } = item;
 
-	t.deepEqual(result, [
-		{
-			title: 'Unicorn',
-			subtitle: 'Rainbow'
-		}
-	]);
+	t.regex(title, /^Size: \d+\w+\s+Used: \d+\w+\s+Avail: \d+\w+$/g);
 });
