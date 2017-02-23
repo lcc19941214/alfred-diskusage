@@ -1,0 +1,6 @@
+Filesystem      Size   Used  Avail Capacity iused      ifree %iused  Mounted on
+/dev/disk1      97Gi   82Gi   15Gi    85% 2347711 4292619568    0%   /
+devfs          188Ki  188Ki    0Bi   100%     650          0  100%   /dev
+map -hosts       0Bi    0Bi    0Bi   100%       0          0  100%   /net
+map auto_home    0Bi    0Bi    0Bi   100%       0          0  100%   /home
+/dev/disk2      14Gi  4.2Gi   10Gi    30%     257 4294967022    0%   /Volumes/lcc

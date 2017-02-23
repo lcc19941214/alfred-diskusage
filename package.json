@@ -1,0 +1,39 @@
+{
+  "name": "alfred-diskusage",
+  "version": "0.0.0",
+  "description": "show mac disk usage",
+  "license": "MIT",
+  "repository": "lcc19941214/alfred-diskusage",
+  "author": {
+    "name": "lcc19941214",
+    "email": "245987239@qq.com",
+    "url": "achuan.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "build": "alfy-init",
+    "clean": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "shelljs": "^0.7.6"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
