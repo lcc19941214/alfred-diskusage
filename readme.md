@@ -14,7 +14,7 @@ $ npm install --global alfred-diskusage
 
 ## Usage
 
-In Alfred, type `diskusage`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `df`, <kbd>Enter</kbd>, and you'll see you mac disk usage info.
 
 
 ## License
