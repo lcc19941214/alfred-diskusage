@@ -35,7 +35,7 @@
 		<array/>
 	</dict>
 	<key>createdby</key>
-	<string>conan tvos</string>
+	<string>Conan Lau</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -44,6 +44,23 @@
 	<string>diskusage</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C0CBE2D8-71A1-4A07-84F1-F317E4A77C9D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -84,23 +101,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>B1E74FA9-45B3-4560-AF7A-FB457DB265ED</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>C0CBE2D8-71A1-4A07-84F1-F317E4A77C9D</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
